@@ -121,11 +121,29 @@ input[type=submit]{
 
 .banner{
 margin-top: 0px;
+
 }
 
-.center {
-  margin-left:37%;
-  width: 25%;
+.banner img{
 
-  padding: 20px;
+  padding-left: 150px;
+}
+
+
+.center {
+  margin-left:36.5%;
+
+}
+
+.center a{
+  display: inline-block;
+  padding: 8px;
+}
+
+
+.intro h1{
+  color:#00c8de;
+  padding:30px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
