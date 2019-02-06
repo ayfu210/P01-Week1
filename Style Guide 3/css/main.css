@@ -117,3 +117,15 @@ input[type=submit]{
 .checkout-item_text__count {
   display: inline;
 }
+
+
+.banner{
+margin-top: 0px;
+}
+
+.center {
+  margin-left:37%;
+  width: 25%;
+
+  padding: 20px;
+}
