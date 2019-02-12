@@ -125,10 +125,7 @@ margin-top: 0px;
 
 }
 
-.banner img{
 
-  padding-left: 150px;
-}
 
 .about_banner{
   margin-top: 0px;
@@ -136,29 +133,39 @@ margin-top: 0px;
 }
 
 .banner img{
+width: 150%;
 
-  padding-left: 0;
+
+
 }
 
 .center {
+/*
+  text-align:right;
 
-  text-align: center;
+  /*position: -webkit-sticky; /* Safari */
+  /*position: sticky;
+  top: 0;*/
+
 
 }
 
+
 .center a{
-  display: inline-block;
+  display:inline-block;
   padding: 8px;
   text-decoration: none;
 
+
 }
 
+.logo h1{
+  /*text-align:left;*/
+}
 
 .intro h1{
   color:#00c8de;
-  padding:30px;
-  padding-left: 250px;
-  padding-right: 250px;
+
 }
 
 .kristina{
@@ -175,4 +182,14 @@ margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.center  .logo {
+  font-size: 30px;
+  color:#00c8de;
+}
+
+#logo {
+  height: 100px;
+  vertical-align: middle;
 }
