@@ -16,6 +16,35 @@ h1{
 
  }
 
+ .home_container{
+ display: flex;
+ flex-wrap: wrap;
+ box-sizing: border-box;
+ flex-direction: row;
+ justify-content: space-between;
+
+ }
+
+ .home_container div{
+
+  background-color: #FFF8F5;
+  padding: 15px;
+
+ }
+
+ .home_product{
+   flex: 1 1 15em;
+   order:1;
+
+
+ }
+
+ .home_productdescription{
+   flex: 1 1 15em;
+   order:2;
+ }
+
+
 .container {
 display: flex;
 flex-wrap: wrap;
@@ -31,6 +60,9 @@ justify-content: space-between;
  padding: 15px;
 
 }
+
+
+
 
  .product1{
    flex:1;
