@@ -51,7 +51,6 @@ flex-wrap: wrap;
 box-sizing: border-box;
 flex-direction: row;
 justify-content: space-between;
-
 }
 
 .container div{
@@ -62,9 +61,14 @@ justify-content: space-between;
 }
 
 
+.product {
+  flex-basis: 30%;
+  margin: 10px 10px;
+  width: 100%;
+  min-width: 300px;
+}
 
-
- .product1{
+ /* .product1{
    flex:1;
    order:1;
    margin-right: 20px;
@@ -81,7 +85,7 @@ justify-content: space-between;
    order:3;
    margin-right: 0;
 
- }
+ } */
 
 
  .container2 {
@@ -121,4 +125,10 @@ justify-content: space-between;
 
 .payment-row input{
   flex:.5;
+}
+
+@media only screen and (max-width: 720px) {
+  .product {
+    flex: none;
+  }
 }
