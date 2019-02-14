@@ -32,6 +32,14 @@ h1{
 
  }
 
+ .eventimg{
+   display:block;
+   margin:auto;
+   max-height: 200px;
+   text-align: center;
+
+ }
+
  .home_product{
    flex: 1 1 15em;
    order:1;
@@ -131,4 +139,10 @@ justify-content: space-between;
   .product {
     flex: none;
   }
+}
+
+.footer{
+  margin-top: 20px;
+  height: 200px;
+  background-color: #00c8de;
 }
