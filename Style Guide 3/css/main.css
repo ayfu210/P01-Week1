@@ -170,9 +170,9 @@ width: 150%;
 .intro h1{
   color:#00c8de;
 
-
+  margin:100px;
   text-align: center;
-  margin-left: auto;
+  /* margin-left: auto; */
 
 }
 
@@ -368,4 +368,8 @@ div.desc {
   left: 40%;
   transform: translate(-50%, -50%);
     color: #00c8de;
+}
+
+.checkout-item_image{
+  min-width: 100px;
 }
