@@ -337,6 +337,7 @@ div.desc {
 .image {
   display: inline;
   width: 80%;
+  min-width: 80%;
   height: auto;
 
 }
