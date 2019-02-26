@@ -633,6 +633,7 @@ a.add-btn:hover{
 }
 
 
+<<<<<<< HEAD
 .footer{
 
   margin-top: 20px;
@@ -640,4 +641,42 @@ a.add-btn:hover{
   height: 200px;
   color: white;
   background-color: #00c8de;
+=======
+
+
+.footer {
+  margin-top: 10px;
+  padding-top:10px;
+  height: 230px;
+  color: white;
+  background-color: #00c8de;
+
+}
+
+.footer h2{
+  text-align: center;
+
+  margin: 1%;
+  weight:bolder;
+
+}
+
+
+.footer p {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+
+}
+
+.footer a {
+  color: white;
+text-underline-position: under;
+
+}
+
+
+.footer a:hover, a:focus{
+  color: #e85210;
+>>>>>>> master
 }
