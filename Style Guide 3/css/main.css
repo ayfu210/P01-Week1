@@ -100,6 +100,8 @@ input[type=submit]{
   padding: 15px;
  width: 100%;
  display: block;
+ padding-left: 230px;
+ padding-right: 230px;
 }
 
 .checkout-item_image {

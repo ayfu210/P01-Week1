@@ -97,6 +97,7 @@ justify-content: space-between;
 
   background-color: #FFF8F5;
 
+
  }
 
    .container2.5 div{
@@ -105,14 +106,17 @@ justify-content: space-between;
   }
 
 .payment{
-  display:inline-block;
+
 }
 
 
 #checkoutform{
 
-
   max-width: 800px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -122,12 +126,14 @@ display: flex;
 flex-wrap: wrap;
 box-sizing: border-box;
 flex-direction: row;
-justify-content: center;
+
+
 
 }
 
   .container3 div{
    background-color: #FFF8F5;
+
 
 
   }
