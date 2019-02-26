@@ -59,6 +59,7 @@ display: flex;
 flex-wrap: wrap;
 box-sizing: border-box;
 flex-direction: row;
+justify-content: space-between;
 }
 
 .container div{
@@ -95,9 +96,26 @@ flex-direction: row;
  .container2 div{
 
   background-color: #FFF8F5;
-  max-width: 800px;
 
+ }
+
+   .container2.5 div{
+
+    background-color: #FFF8F5;
+  }
+
+.payment{
+  display:inline-block;
 }
+
+
+#checkoutform{
+
+
+  max-width: 800px;
+}
+
+
 
 .container3 {
 display: flex;
@@ -110,7 +128,7 @@ justify-content: center;
 
   .container3 div{
    background-color: #FFF8F5;
-   max-width:800px;
+
 
   }
 
@@ -120,8 +138,17 @@ justify-content: center;
   box-sizing: border-box;
   flex-direction: row;
 
-  justify-content: center;
+  justify-content: space-between;
   }
+
+.home_benefits{
+  flex-basis: 30%;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  min-width: 300px;
+
+}
 
 
 
@@ -160,15 +187,15 @@ justify-content: center;
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1080px) {
   .container {
-    flex-wrap: none;
-
+    margin: auto;
+    width: 90%;
   }
 }
 
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 840px) {
   .product {
     flex: none;
   }
@@ -176,19 +203,36 @@ justify-content: center;
 
 @media only screen and (max-width: 980px) {
   .benefits_container {
-    /* flex-wrap: none; */
-    justify-content: left
+    /* flex: none; */
+    display: block;
+    justify-content: left;
+
+
 
   }
 }
 
 @media only screen and (max-width: 630px) {
-  .home_benefits {
+  .benefits_container {
     flex: none;
 
 
   }
+
+  .benefits_container div {
+    max-width: none;
+  }
+
+
+
+  .home_benefits {
+    flex-basis: auto;
+
+
+
+  }
 }
+
 
 
 /* @media only screen and (max-width: 1000px) {

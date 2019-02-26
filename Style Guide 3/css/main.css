@@ -2,7 +2,6 @@
 
 body {
   font-family: "ProximaNova",sans-serif;
-  padding: 2rem;
 
 }
 
@@ -298,6 +297,8 @@ div.desc {
 
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
 .responsive {
@@ -336,7 +337,6 @@ div.desc {
 
 .image {
   display: inline;
-  width: 80%;
   min-width: 80%;
   height: auto;
 
@@ -373,10 +373,6 @@ div.desc {
 
 
 
-form {
-  border: 3px solid #f1f1f1;
-
-}
 
 .container {
   padding: 20px;
