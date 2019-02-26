@@ -631,10 +631,7 @@ a.add-btn:hover{
   content:"\2022";
   margin-right: 20px;
 }
-<<<<<<< HEAD
 
-
-<<<<<<< HEAD
 .footer{
 
   margin-top: 20px;
@@ -642,13 +639,13 @@ a.add-btn:hover{
   height: 200px;
   color: white;
   background-color: #00c8de;
-=======
+
 
 
 .footer {
   margin-top: 10px;
   padding-top:10px;
-  height: 230px;
+  height: 250px;
   color: white;
   background-color: #00c8de;
 
@@ -679,7 +676,5 @@ text-underline-position: under;
 
 .footer a:hover, a:focus{
   color: #e85210;
->>>>>>> master
+
 }
-=======
->>>>>>> parent of ee84ea7... moved footer
