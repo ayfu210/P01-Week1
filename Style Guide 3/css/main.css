@@ -381,6 +381,10 @@ div.desc {
   background-color:white;
 }
 
+.container h2{
+
+}
+
 input[type=text], input[type=submit] {
   width: 100%;
   padding: 12px;
@@ -517,7 +521,7 @@ p{
   background-size: cover;
     background-position: center top;
     width: 100%;
-    min-height: 450px;
+    min-height: 50px;
 }
 
 .product-image .indicator{
@@ -669,4 +673,44 @@ text-underline-position: under;
 .footer a:hover, a:focus{
   color: #e85210;
 
+}
+
+
+.about h1 {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 0rem;
+}
+.about h2 {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 1rem;
+}
+
+.about p{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 0rem;
+  max-width: 50%;
+}
+
+
+
+.in-text-link h2 {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 1rem;
+  margin-botto: 1rem;
+  color: #00c8de;
+}
+
+.in-text-link h3 {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 1rem;
+}
+.in-text-link p, a{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 1rem;
 }
