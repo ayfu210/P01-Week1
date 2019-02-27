@@ -8,6 +8,8 @@ body {
 
 h2 {
   margin-top: 6rem;
+  text-align: center;
+
 }
 
 h3 {
@@ -344,6 +346,13 @@ div.desc {
 
 }
 
+.snacks_image{
+  max-width: 70%;
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 .overlay {
   position: relative;
   bottom: 0;
@@ -379,6 +388,7 @@ div.desc {
 .container {
   padding: 20px;
   background-color:white;
+
 }
 
 .container h2{
@@ -479,6 +489,7 @@ p{
 .nav-links a{
   color: #000;
   font-size: 12px;
+
   text-decoration: none;
   margin: 0px 15px;
 }
