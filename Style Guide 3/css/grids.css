@@ -1,43 +1,36 @@
-img {
-  max-width: 100%;
-}
+img{max-width:100%;}
 
-h2 {
+h2{
   padding-bottom: 50px;
   text-align: center;
-}
 
-h1 {
+ }
+
+h1{
   text-align: center;
+
 }
 
-p {
-  text-align: center;
-}
+ p{
+   text-align: center;
 
-.home_container {
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 100px;
-}
+ }
 
-.home_container div {
+ .home_container{
+ display: flex;
+ flex-wrap: wrap;
+ box-sizing: border-box;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-bottom: 100px;
+
+ }
+
+ .home_container div{
+
   background-color: #FFF8F5;
   padding: 15px;
 }
-
-<<<<<<< HEAD
-.eventimg {
-  display: block;
-  margin: auto;
-  max-height: 200px;
-  text-align: center;
-}
-=======
- }
 
  .eventimg{
    display:block;
@@ -58,40 +51,28 @@ p {
    flex: 1 1 15em;
    order:2;
    padding-top: 30px !important;
+
    padding-right:100px !important;
-
-
 
  }
 
->>>>>>> master
 
-.home_product {
-  flex: 1 1 15em;
-  order: 1;
-}
-
-.home_productdescription {
-  flex: 1 1 15em;
-  order: 2;
-  padding-top: 30px !important;
-}
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  flex-direction: row;
-  justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+box-sizing: border-box;
+flex-direction: row;
+justify-content: space-between;
 }
 
-.container div {
-  background-color: #FFF8F5;
-  padding: 15px;
+.container div{
+
+ background-color: #FFF8F5;
+ padding: 15px;
+
 }
 
-<<<<<<< HEAD
-=======
 .container.4 {
 
 
@@ -108,8 +89,6 @@ justify-content: space-between;
 }
 
 
-
->>>>>>> master
 .product {
   flex-basis: 30%;
   margin: 10px 10px;
@@ -117,103 +96,118 @@ justify-content: space-between;
   min-width: 300px;
 }
 
-.productimg {
-  display: block;
-  margin: auto;
+.productimg{
+  display:block;
+  margin:auto;
   max-height: 200px;
   text-align: center;
 }
 
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  flex-direction: row;
-  justify-content: center;
-}
+ .container2 {
+ display: flex;
+ flex-wrap: wrap;
+ box-sizing: border-box;
+ flex-direction: row;
+ justify-content: center;
 
+}
 .container2 div {
   background-color: #FFF8F5;
-<<<<<<< HEAD
-}
-=======
-
 
  }
 
-   .container2.5 div{
+.container2.5 div{
 
     background-color: #FFF8F5;
   }
 
->>>>>>> master
 
-.container2.5 div {
-  background-color: #FFF8F5;
-}
 
-.payment {}
 
-#checkoutform {
+
+#checkoutform{
+
   max-width: 800px;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+
+
 .container3 {
+display: flex;
+flex-wrap: wrap;
+box-sizing: border-box;
+flex-direction: row;
+
+
+
+}
+
+  .container3 div{
+   background-color: #FFF8F5;
+
+
+
+  }
+
+  .benefits_container {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
   flex-direction: row;
-}
 
-.container3 div {
-  background-color: #FFF8F5;
-}
-
-.benefits_container {
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  flex-direction: row;
   justify-content: space-between;
-}
+  }
 
-.home_benefits {
+.home_benefits{
   flex-basis: 30%;
   margin-left: 40px;
   margin-right: 40px;
+
   min-width: 300px;
+
 }
 
-.benefits_container div {
-  padding: 15px;
-  max-width: 300px;
+
+
+  .benefits_container div{
+   padding: 15px;
+   max-width: 300px;
+
+  }
+
+
+  .benefts {
+    flex-basis: 30%;
+    margin: 10px 10px;
+    width: 100%;
+    min-width: 300px;
+  }
+
+
+  .payment{
+    flex:2;
+    order:1;
+    padding:50px;
+
+
+  }
+
+.payment-row{
+  display:flex;
 }
 
-.benefts {
-  flex-basis: 30%;
-  margin: 10px 10px;
-  width: 100%;
-  min-width: 300px;
+.payment-row label{
 }
 
-.payment {
-  flex: 2;
-  order: 1;
-  padding: 50px;
+.payment-row input{
+  flex:.5;
 }
 
-.payment-row {
-  display: flex;
-}
 
-.payment-row label {}
-
-.payment-row input {
-  flex: .5;
-}
 
 @media only screen and (max-width: 1080px) {
   .container {
@@ -221,6 +215,7 @@ justify-content: space-between;
     width: 90%;
   }
 }
+
 
 @media only screen and (max-width: 840px) {
   .product {
@@ -233,22 +228,34 @@ justify-content: space-between;
     /* flex: none; */
     display: block;
     justify-content: left;
+
+
+
   }
 }
 
 @media only screen and (max-width: 630px) {
   .benefits_container {
     flex: none;
+
+
   }
 
   .benefits_container div {
     max-width: none;
   }
 
+
+
   .home_benefits {
     flex-basis: auto;
+
+
+
   }
 }
+
+
 
 /* @media only screen and (max-width: 1000px) {
   .benefits {
