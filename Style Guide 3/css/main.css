@@ -464,6 +464,8 @@ p{
 
 .product-image {
   /*border: 1px dotted #aaa;*/
+  padding-top:150px;
+
 }
 
 .product-image .bg {
@@ -628,6 +630,9 @@ a.add-btn:hover {
   max-width: 50%;
 }
 
+.aboutimages{
+  padding-bottom: 30px;
+}
 
 
 .in-text-link h2 {
