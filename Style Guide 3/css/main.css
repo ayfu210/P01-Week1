@@ -730,3 +730,13 @@ text-underline-position: under;
   margin-left: 10px;
   margin-top: 1rem;
 }
+
+
+
+.citations li{
+  margin-left: 50px;
+}
+
+.citations h3{
+  margin-left: 20px;
+}
