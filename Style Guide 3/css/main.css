@@ -97,7 +97,6 @@ input[type=submit]{
 }
 
 
-
 .checkout{
   padding: 15px;
  width: 100%;
@@ -132,7 +131,7 @@ margin-top: 0px;
 
 }
 
-
+.about{}
 
 .about_banner{
   margin-top: 0px;
@@ -715,9 +714,8 @@ text-underline-position: under;
 .in-text-link h2 {
   text-align: left;
   margin-left: 10px;
-  margin-top: 1rem;
-  margin-botto: 1rem;
-  color: #00c8de;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
 }
 
 .in-text-link h3 {
