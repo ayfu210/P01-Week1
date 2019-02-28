@@ -118,7 +118,7 @@ input[type=submit]{
 }
 
 .checkout-item_text__title {
-  margin-bottom: 10px;
+ padding-top: 30px;
 }
 
 .checkout-item_text__count {
@@ -566,6 +566,9 @@ p{
   float: left;
 }
 
+
+
+
 .product-info select{
   cursor: pointer;
   margin-bottom: 20px;
@@ -580,12 +583,25 @@ p{
           appearance: none;
 }
 
+.styleguide_dropdown  select{
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 12px 92px 12px 15px;
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
+  color: #aaa;
+  font-size: 12px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
 select:active, select:focus {
   outline: none;
   box-shadow: none;
 }
 
-.select-dropdown:after {
+.select_dropdown:after {
     content: " ";
   cursor: pointer;
     position: absolute;
@@ -610,6 +626,8 @@ select:active, select:focus {
   text-decoration: none;
   transition: all 400ms ease;
 }
+
+
 
 a.add-btn:hover{
   background-color: #e85210;
