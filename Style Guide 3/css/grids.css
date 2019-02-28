@@ -52,6 +52,7 @@ h1{
    flex: 1 1 15em;
    order:2;
    padding-top: 30px !important;
+   padding-right:100px !important;
 
 
 
@@ -74,6 +75,22 @@ justify-content: space-between;
  padding: 15px;
 
 }
+
+.container.4 {
+
+
+box-sizing: border-box;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.container.4 div{
+
+ background-color: #FFF8F5;
+ padding: 15px;
+
+}
+
 
 
 .product {

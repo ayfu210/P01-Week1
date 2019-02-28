@@ -526,6 +526,8 @@ p{
 
 .product-image{
   /*border: 1px dotted #aaa;*/
+  padding-top:150px;
+
 }
 
 .product-image .bg{
