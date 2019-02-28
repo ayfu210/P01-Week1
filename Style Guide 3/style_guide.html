@@ -22,7 +22,11 @@
 
 </head>
 
+<body>
+
 <div class="about">
+  <br>
+  <br>
   <h1>Tidbit</h1>
   <p>Healthy Treats For Your Pet.</p>
   <br>
@@ -66,9 +70,20 @@
 
   <h3>Submit/Reset Buttons</h3>
   <form action="/action_page.php" method="get">
-  <button type="submit" value="Submit">Submit</button>
-  <button type="reset" value="Reset">Reset</button>
+    <a class="button" href="#">submit</a>
+    <a class="button" href="#">reset</a>
   </form>
+
+<section class="element">
+  <h3>Drop down selector</h3>
+  <div class="select-dropdown">
+    <select>
+      <option value="size">Size</option>
+      <option value="size">Small</option>
+      <option value="size">Medium</option>
+      <option value="size">Large</option>
+    </select>
+  </div>
 
 </section>
 
@@ -79,7 +94,7 @@
   <form>
   <label for="name">Name</label>
   <input type="text" placeholder="Name goes here" id="name">
-  <input type="submit" value="Post Comment">
+  <a class="button" href="#">Post Comment</a>
   </form>
 
 </section>
@@ -100,6 +115,44 @@
   <a href="https://en.wikipedia.org/wiki/Pug"><img src="pug.jpeg"></a>
 
 </section>
+
+<section class="element">
+
+  <h3>Product Listings</h3>
+  <div class="container">
+
+    <div class="product">
+      <img src="images/chickenrecipe.png">
+      <h1>Chicken Meal</h1>
+      <br>
+      <p>Healthy Chicken Feast uses a cooked food recipe to balance the dense nutrition of a raw diet with the convenience of kibble. </p>
+      <br>
+      <a class="button" href="./products details.html">add to cart</a>
+    </div>
+
+    <div class="product">
+      <img src="images/beefrecipe.png">
+      <h1>Beef Meal</h1>
+      <br>
+      <p> Tasty Turkey Feast is a cooked recipe using human grade ingredients with a single protein source. </p>
+      <br>
+      <a class="button" href="#">add to cart</a>
+    </div>
+
+    <div class="product">
+      <img src="images/lambrecipe.png">
+      <h1>Turkey Meal</h1>
+      <br>
+      <p> This meal uses whole turkey plus fruits and veggies with complex carbohydrates to create a bowl you could practically eat yourself.</p>
+      <br>
+      <a class="button" href="#">add to cart</a>
+    </div>
+
+
+  </div>
+
+</section>
+
 
 
 </section>
